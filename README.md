@@ -1,1 +1,1 @@
-# DiSCo
+This work is pending a "Double-Anonymous" submission, so we are unable to disclose further details to maintain the submission rules.
