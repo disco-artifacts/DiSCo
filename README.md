@@ -45,7 +45,7 @@ Output:
 To analyze the contract's constructor and other transactions.
 
 #### 2.1 Configure Ethereum Node
-Set your Ethereum node endpoint in the [configuration](./common/utils/web3_utils.py):
+Set your Ethereum node endpoint in the [configuration](./disco/common/utils/web3_utils.py):
 ```bash
 ENDPOINT_URI="XX"
 ```
