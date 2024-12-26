@@ -28,6 +28,8 @@ pip install -r requirements.txt
 ### 1. Static Analysis
 Analyze the contract's bytecode to extract semantic units:
 
+> TL;DR [extract_semantic_units.py](./disco/common/lifting/extractors/extract_semantic_units.py) for extracting `semantic units` (aka. conditional behaviors)
+
 ```bash
 python disco static_analysis --address <contract_address>
 ```
@@ -43,6 +45,8 @@ Output:
 
 ### 2. Transaction Analysis (Optional)
 To analyze the contract's constructor and other transactions.
+
+> TL;DR [transaction_analyzer.py](./disco/transaction_analyzer/transaction_analyzer.py) for analyzing constructor
 
 #### 2.1 Configure Ethereum Node
 Set your Ethereum node endpoint in the [configuration](./disco/common/utils/web3_utils.py):
